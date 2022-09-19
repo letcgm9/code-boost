@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    /*@include responsive (1300px) {
+        font-size: 58%;
+    }
+
+    @include responsive (991px) {
+        font-size: 65.2%;
+    }*/
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+body{
+    background-color: $neutral-100;
+}

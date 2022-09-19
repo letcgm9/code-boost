@@ -1,0 +1,14 @@
+/*
+para fazer:
+@mixin nome-classe-mixing ($substituicao1, $substituicao2) {
+    width: $substituicao1;
+    height: $substituicao2;
+}
+
+para chamar:
+div {
+    @include nome-classe-mixing (200,200)
+}
+
+se for sem parametros eh so n adicionar o ()
+*/

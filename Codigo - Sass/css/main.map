@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_reset.scss",
+		"../scss/_responsive.scss",
+		"../scss/_buttons.scss"
+	],
+	"sourcesContent": [
+		"@import 'reset';\n@import 'responsive';\n@import 'buttons';\n",
+		"* {\n    margin: 0;\n    padding: 0;\n}",
+		"@media (max-width: 1200px) {\n    h1 {\n        font-size: 2rem;\n    }\n}",
+		""
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACHD,MAAM,EAAE,SAAS,EAAE,MAAM;;EACrB,AAAA,EAAE,CAAC;IACC,SAAS,EAAE,IAAI;GAClB"
+}

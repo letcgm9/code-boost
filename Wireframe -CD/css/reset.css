@@ -1,0 +1,27 @@
+/* resetar o padrao do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 1 rem = 10 px */
+html {
+    font-size: 62.5% ;
+}
+
+/* imagem responsiva */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* resetar os padroes do navegador de botao e fazer interativo com o cursor */
+button, a{
+    cursor: pointer; 
+}

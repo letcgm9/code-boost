@@ -1,0 +1,22 @@
+/* responsive fica dentro do style, cada style tem seu responsivo no final da chave.
+
+fazendo mixing responsivo:
+@mixing responsive($tamanhotela) {
+    @media(max-width: $tamanhotela) {
+        @content
+    }
+}
+
+aplicando mixing para responsivo:
+.classe {
+    .classe2 {
+        display: flex;
+        flex-direction: row;
+    }
+    @include responsive(480px){
+        .classe2 {
+            flex-direction: collumn;
+        }
+    }
+}
+    

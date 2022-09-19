@@ -1,0 +1,14 @@
+/* line 1, ../../../../../../../../../../../../../Users/leticiamartins/Documents/Codigo/Codigo - Sass/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  /* line 2, ../../../../../../../../../../../../../Users/leticiamartins/Documents/Codigo/Codigo - Sass/scss/_responsive.scss */
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

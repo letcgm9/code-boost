@@ -1,0 +1,7 @@
+/* responsividade de grid, assim o site fica centralizado de acordo com o conteudo, seguir width do figma */
+.container {
+    width: 100%;
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
